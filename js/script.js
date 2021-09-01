@@ -91,7 +91,7 @@ window.addEventListener('DOMContentLoaded', () => {
             seconds.innerHTML = getZero(t.seconds);
 
 
-            if (t.totla <= 0) {
+            if (t.total <= 0) {
                 clearInterval(timeInterval)
             }
         }
